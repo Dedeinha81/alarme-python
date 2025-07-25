@@ -1,34 +1,39 @@
 
-# ⏰ Projeto Alarme com Snooze em Python
 
-Este projeto é um **Alarme com interface gráfica**, desenvolvido em **Python** com suporte ao recurso **Snooze** (adiar alarme por 5 minutos) e escolha personalizada de som.
+# ⏰ Alarme com Snooze e Escolha de Som – Python + Tkinter
 
-## 🚀 Como Funciona
-
-O sistema verifica constantemente o horário atual e compara com o horário configurado pelo usuário. Quando os horários coincidem, o som do alarme é reproduzido. O usuário também pode optar por adiar o alarme por mais 5 minutos com o botão *Snooze*.
+Este projeto é um alarme digital com interface gráfica desenvolvido em **Python**, utilizando **Tkinter** para a interface e a biblioteca `playsound` para reprodução de áudio. O usuário pode configurar o horário do alarme, escolher um som personalizado (MP3) e utilizar a função **Snooze**, que adia o alarme por 5 minutos.
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+## 🖥️ Tecnologias Utilizadas
 
-- **Python 3.x**  
-- **Tkinter** – Interface gráfica  
-- **playsound** – Reprodução de som (.mp3)  
-- **datetime & time** – Controle e verificação de horário  
-- **filedialog** – Seleção de arquivo de áudio  
+- Python 3
+- Tkinter (interface gráfica)
+- Playsound (áudio)
+- datetime, time (tempo)
+
+---
+
+## ✅ Funcionalidades
+
+- Inserção do horário (hora e minuto) para o alarme
+- Escolha de som MP3 personalizado para o alarme
+- Interface gráfica simples e funcional
+- Função **Snooze** (adiamento do alarme por 5 minutos)
+- Exibição do status na interface
 
 ---
 
-## 🧠 Funcionalidades
+## ▶️ Como Executar
 
-- ⏲ **Configuração de horário do alarme**  
-- 🔊 **Escolha de som personalizado (formato .mp3)**  
-- 💤 **Função Snooze (adiamento de 5 minutos)**  
-- 🖥 **Interface gráfica intuitiva com Tkinter**
+1. Certifique-se de ter o Python 3 instalado.
+2. Instale a biblioteca `playsound`:
+
+pip install playsound
 
 ---
-💡 Inspiração
-Projeto criado para praticar conceitos de Python, interfaces gráficas e manipulação de arquivos de áudio.
 
+## ▶️ Execute o script
 
-
+python alarme.py
