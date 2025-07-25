@@ -31,8 +31,4 @@ O sistema verifica constantemente o horário atual e compara com o horário conf
 Projeto criado para praticar conceitos de Python, interfaces gráficas e manipulação de arquivos de áudio.
 
 
----
-💡 Inspiração
-Projeto criado para praticar conceitos de Python, interfaces gráficas e manipulação de arquivos de áudio.
-
 
